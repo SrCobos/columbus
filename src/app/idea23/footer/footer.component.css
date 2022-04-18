@@ -1,0 +1,40 @@
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.footer__container p {
+    padding: 10px;
+    font-size: 18px;
+    color: slategray;
+    font-weight: 700;
+}
+
+.footer__container span {
+    padding: 8px;
+}
+
+.container_social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.footer__containerSocial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__containerSocial i {
+    font-size: 20px;
+    color: darkgrey;
+    padding: 10px;
+}
+

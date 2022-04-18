@@ -1,0 +1,142 @@
+section {
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-form{
+    display: block;
+    height: 250px;
+    width: 100%;
+    box-shadow: 3px 3px 22px -1px rgba(94,89,94,1);
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.container-flex-form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 8px;
+}
+
+label{
+    display: block;
+    margin: .5em 0 0 0;
+    color: darkgrey;
+}
+
+input {
+    border-radius: 4px;
+    padding: 5px;
+    width: 250px;
+    height: 15px;
+    border: .5px solid blue;
+}
+button {
+    display: inline-block;
+    border: 1px solid blue;
+    border-radius: 4px;
+    padding: 7px;
+    background-color: transparent;
+    color: blue;
+    text-transform: uppercase;
+}
+
+.button-flex button{
+    width: 250px;
+    margin-top: 23px;
+}
+
+.button-flex {
+    display: flex;
+    align-items: center;
+}
+
+.form-colum {
+    display: flex;
+    flex-direction: column;
+}
+
+#btn-form {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.flex-end button {
+    margin-top: 20px;
+    margin-right: 5px;
+    width: 250px;
+}
+
+.letrero{
+    font-size: large;
+    color: blue;
+    font-weight: 900;
+}
+
+.asesoramiento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 0;
+    padding-left: 0;
+    padding: 50px;
+}
+.asesoramiento p{
+    margin-left: -110px;
+}
+
+.container-flex-btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-flex-btn button {
+    width: 225px;
+    height: 60px;
+    padding: 20px;
+    font-weight: 800;
+}
+
+#secondary {
+    width: 225px;
+    height: 60px;
+    padding: 20px;
+    font-weight: 800;
+    background-color: blue;
+    color: white;
+    text-transform: uppercase;
+}
+
+#letrero {
+    font-size: large;
+    font-weight: 700;
+}
+
+

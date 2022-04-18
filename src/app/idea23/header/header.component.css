@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    /* background-color: bisque; */
+    border-bottom: 1px solid black;
+    padding: 20px;
+
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.container-nav a{
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: darkgrey;
+
+   
+}
+
+.container-nav > a:hover{
+    border-bottom: 1px solid blue;
+    color: blue;
+}
